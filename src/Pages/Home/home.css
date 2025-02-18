@@ -8,7 +8,6 @@
     grid-column: 1/span 11;
     /* display: grid; */
     gap: 10px;
-    /* height: 585px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +18,7 @@
     border: 3px solid #ECCD48;
     background-color: #0d1b2a;
     overflow: auto;
-    /* height: 630px; */
+    height: 485px;
     width: 100%;
 }
 
@@ -66,14 +65,6 @@
     background-color: rgb(229, 223, 223);
 }
 
-@media(max-width:1058px){
-
-    /* .content{
-        height: auto;
-        min-height: 615px;
-    } */
-}
-
 @media(max-width:969px){
 
     .home-left {
@@ -83,6 +74,10 @@
     .google-ad-right {
         display: none;
     }
+/* 
+    .content{
+        height: 480px;
+    } */
 
     .google-ad-top,.footer-ad {
         width: 320px;
