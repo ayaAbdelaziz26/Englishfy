@@ -226,6 +226,10 @@
     .icons img{
         display: none;
       }
+
+      .show-video-content{
+        height: 454px;
+      }
   }
 
   /* @media(max-width:768px){

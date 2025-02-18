@@ -287,6 +287,13 @@
     }
 }
 
+@media(max-width:969px){
+    .roadmap-courses,.course-videos-content{
+        height: 514px;
+    }
+
+}
+
 /* @media(max-width:768px){
     .roadmap-courses {
         height: auto;
