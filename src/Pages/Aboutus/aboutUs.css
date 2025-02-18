@@ -1,0 +1,78 @@
+.aboutus {
+    display: flex;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: 'Josefin Sans';
+    padding: 50px 20px;
+}
+
+.aboutus-top {
+    background-color: #415A77;
+    border-radius: 10px 10px 0 0;
+    background-color: #415A77;
+    text-align: center;
+    padding: 50px;
+}
+
+.aboutus-top h1 {
+    font-weight: bold;
+    color: #ECCD48;
+    margin-bottom: 40px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Josefin Sans';
+}
+
+.aboutus-top p {
+    font-size: 19px;
+    color: white;
+    text-align: justify;
+}
+
+.aboutus-bottom{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin:15px;
+    padding: 20px 15px;
+
+}
+
+.aboutus-bottom div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    grid-column: auto;
+    background-color: #ECCD48;
+    height: 250px;
+    border-radius: 15px;
+    padding: 15px;
+    border: 3px solid #415A77;
+
+}
+
+.aboutus-bottom span{
+    color: #192D45;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.youtube-icon, .topic-icon, .hours-icon{
+    color: #192D45;
+    font-size: 60px;
+}
+
+@media (max-width:992px){
+    .aboutus-bottom div{
+        grid-column: 1/span 12;
+    
+    }
+}

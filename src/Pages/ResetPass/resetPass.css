@@ -1,0 +1,75 @@
+.reset-pass{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color:#00000090;
+    position: absolute;
+    display: grid;
+    top: 0;
+    right: 0;
+    font-family: 'Josefin Sans';
+}
+
+.reset-pass-popup{
+    display: flex;
+    background-color: #415A77;
+    color: #fff;
+    flex-direction: column;
+    width: max(35vw,300px);
+    max-height: 700px;
+    place-self: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px 10px;
+    gap: 30px;
+}
+
+.reset-pass-popup .success{
+    color: green;
+}
+
+.reset-pass-popup .fail{
+    color: red;
+}
+
+.reset-pass-popup div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reset-pass-popup img{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.reset-pass-popup label{
+    color: #0d1b2a;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.reset-pass-popup input{
+    height: 45px;
+    outline: 0;
+    border: 2px solid #ECCD48;
+    color: #fff;
+    font-size: 18px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.reset-pass-popup button{
+    height: 45px;
+    outline: 0;
+    border: 0;
+    color: #0d1b2a;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ECCD48;
+    border-radius: 10px;
+    width: 150px;
+    margin: auto;
+}

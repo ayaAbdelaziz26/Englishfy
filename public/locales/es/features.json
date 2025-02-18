@@ -1,0 +1,35 @@
+{
+    "features": {
+      "title": "Nuestras características",
+      "cards": [
+        {
+          "description": "Nuestro sitio web ofrece la mejor colección de contenido para aprender inglés disponible en YouTube"
+        },
+        {
+          "description": "Incluye un contenido extenso con más de 5,000 horas de material educativo"
+        },
+        {
+          "description": "El contenido educativo es de gran valor"
+        },
+        {
+          "description": "El contenido está organizado en categorías a través de nuestro índice bien estructurado"
+        },
+        {
+          "description": "Acceder a cualquier video es increíblemente fácil a través del índice"
+        },
+        {
+          "description": "El ambiente del sitio web es cómodo y fomenta el aprendizaje y la persistencia"
+        },
+        {
+          "description": "No hay anuncios que interrumpan tu proceso de aprendizaje"
+        },
+        {
+          "description": "No hay sugerencias laterales de otros videos que distraigan o interrumpan tu camino de aprendizaje"
+        },
+        {
+          "description": "Nuestro sitio web es 100% gratuito"
+        }
+      ]
+    }
+  }
+  

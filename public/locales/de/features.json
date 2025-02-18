@@ -1,0 +1,35 @@
+{
+    "features": {
+      "title": "Unsere Funktionen",
+      "cards": [
+        {
+          "description": "Unsere Website bietet die beste Sammlung von Englischlern-Inhalten, die auf YouTube verfügbar sind"
+        },
+        {
+          "description": "Es umfasst umfangreiche Inhalte mit mehr als 5.000 Stunden Bildungs-Material"
+        },
+        {
+          "description": "Der Bildungsinhalt ist von hohem Wert"
+        },
+        {
+          "description": "Die Inhalte sind durch unser gut strukturiertes Index in Kategorien organisiert"
+        },
+        {
+          "description": "Der Zugriff auf jedes Video ist über das Index unglaublich einfach"
+        },
+        {
+          "description": "Die Website-Umgebung ist bequem und fördert das Lernen und die Ausdauer"
+        },
+        {
+          "description": "Es gibt keine Werbung, die deinen Lernprozess unterbricht"
+        },
+        {
+          "description": "Es gibt keine seitlichen Vorschläge für andere Videos, die deinen Lernweg ablenken oder stören könnten"
+        },
+        {
+          "description": "Unsere Website ist 100% kostenlos"
+        }
+      ]
+    }
+  }
+  

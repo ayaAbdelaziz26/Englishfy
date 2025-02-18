@@ -1,0 +1,64 @@
+{
+    "faq": {
+      "title": "Obtenez des réponses aux questions les plus courantes",
+      "questions": [
+        {
+          "question": "Quelle est la différence entre apprendre directement sur YouTube et votre site Web ?",
+          "answer": "YouTube propose des millions de vidéos sur divers sujets et dans différentes langues, tandis que notre site Web se concentre exclusivement sur des vidéos soigneusement sélectionnées pour apprendre l'anglais. Nous avons indexé ces vidéos pour faciliter l'accès et rendre l'expérience d'apprentissage plus organisée et agréable."
+        },
+        {
+          "question": "Comment l'index du site Web a-t-il été créé ?",
+          "answer": "Nous avons recherché sur YouTube les meilleures vidéos pour apprendre l'anglais et les avons organisées en sections catégorisées. Par exemple, la section de grammaire contient plus de 2 000 vidéos consacrées uniquement à l'enseignement de la grammaire."
+        },
+        {
+          "question": "Quel contenu le site Web propose-t-il ?",
+          "answer": "Le site Web propose 38 sujets éducatifs, chacun contenant des vidéos spécialisées sur des thèmes tels que la grammaire, la prononciation ou la phonétique. En tout, il y a plus de 18 000 vidéos et plus de 5 000 heures de contenu éducatif."
+        },
+        {
+          "question": "Ai-je besoin de regarder les 5 000 heures de contenu ?",
+          "answer": "Non, écouter seulement 2 heures par jour pendant un an (environ 600 heures par an) peut améliorer considérablement votre anglais. Vous pouvez choisir le contenu qui correspond à votre niveau."
+        },
+        {
+          "question": "Comment utiliser le site Web ?",
+          "answer": "Utiliser le site Web est très simple. Depuis la page d'accueil, sélectionnez le sujet qui vous intéresse, choisissez une vidéo et appuyez sur play. Aucune connexion n'est nécessaire."
+        },
+        {
+          "question": "Le site propose-t-il des cours complets ?",
+          "answer": "Le site Web ne propose pas de cours séquentiels, mais offre une riche collection de vidéos éducatives de haute qualité pour vous aider à apprendre l'anglais efficacement, sans nécessiter d'ordre spécifique."
+        },
+        {
+          "question": "Le site est-il adapté à tous les niveaux d'apprentissage de l'anglais ?",
+          "answer": "Oui, il est adapté aux débutants, intermédiaires et avancés. Cependant, il peut ne pas être idéal pour ceux qui n'ont pas de connaissances de base en anglais. Il est conseillé à ces utilisateurs de commencer par des centres spécialisés."
+        },
+        {
+          "question": "Puis-je améliorer mon anglais en utilisant le site Web ?",
+          "answer": "Absolument ! Le contenu est précieux et complet. Votre progression dépend de votre engagement et de vos efforts."
+        },
+        {
+          "question": "Combien de temps dois-je consacrer chaque jour pour apprendre l'anglais ?",
+          "answer": "Il est recommandé de consacrer 2 heures par jour, mais le temps varie en fonction de votre niveau actuel et de vos circonstances. La cohérence et la répétition sont essentielles."
+        },
+        {
+          "question": "Combien de temps faut-il pour maîtriser l'anglais ?",
+          "answer": "Pour les apprenants de niveau intermédiaire ou inférieur, consacrer 2 heures par jour pendant un an (environ 600 heures) peut entraîner des améliorations significatives, selon les experts."
+        },
+        {
+          "question": "Quel est le conseil le plus important pour apprendre l'anglais sur le site ?",
+          "answer": "Ne jamais abandonner. Concentrez-vous sur l'écoute constante et fréquente des vidéos, car cela améliore la prononciation, le vocabulaire, la grammaire et les expressions idiomatiques."
+        },
+        {
+          "question": "Le site est-il gratuit ?",
+          "answer": "Oui, le site est entièrement gratuit et accessible à tous. Tout ce dont vous avez besoin est de la détermination et de la volonté d'apprendre."
+        },
+        {
+          "question": "Pourquoi devrais-je faire un don au site ?",
+          "answer": "Les dons aident à couvrir les coûts d'hébergement, de maintenance et de développement continu. Votre soutien garantit que le site reste gratuit pour tout le monde."
+        },
+        {
+          "question": "Comment puis-je faire un don ?",
+          "answer": "Vous pouvez faire un don en cliquant sur le bouton 'Faire un don' et en choisissant votre méthode préférée : Visa, MasterCard, PayPal ou Patreon."
+        }
+      ]
+    }
+  }
+  

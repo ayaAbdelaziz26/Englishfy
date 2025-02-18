@@ -1,0 +1,35 @@
+{
+    "features": {
+      "title": "Nos fonctionnalités",
+      "cards": [
+        {
+          "description": "Notre site propose la meilleure collection de contenu d'apprentissage de l'anglais disponible sur YouTube"
+        },
+        {
+          "description": "Il comprend un contenu vaste avec plus de 5 000 heures de matériel éducatif"
+        },
+        {
+          "description": "Le contenu éducatif est de grande valeur"
+        },
+        {
+          "description": "Le contenu est organisé en catégories grâce à notre index bien structuré"
+        },
+        {
+          "description": "Accéder à n'importe quelle vidéo est incroyablement facile grâce à l'index"
+        },
+        {
+          "description": "L'environnement du site est confortable et encourage l'apprentissage et la persévérance"
+        },
+        {
+          "description": "Il n'y a pas de publicités pour interrompre votre processus d'apprentissage"
+        },
+        {
+          "description": "Il n'y a pas de suggestions latérales d'autres vidéos qui pourraient distraire ou perturber votre parcours d'apprentissage"
+        },
+        {
+          "description": "Notre site est 100% gratuit"
+        }
+      ]
+    }
+  }
+  

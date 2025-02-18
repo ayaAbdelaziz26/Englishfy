@@ -1,0 +1,17 @@
+{
+    "contactUs": {
+      "title": "Kontaktieren Sie uns",
+      "form": {
+        "fullName": "Vollständiger Name",
+        "email": "E-Mail",
+        "message": "Nachricht",
+        "placeholders": {
+          "name": "Geben Sie Ihren Namen ein",
+          "email": "Geben Sie Ihre E-Mail ein",
+          "message": "Schreiben Sie Ihre Nachricht"
+        },
+        "submit": "Senden"
+      }
+    }
+  }
+  

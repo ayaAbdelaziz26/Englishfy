@@ -1,0 +1,208 @@
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.videos-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    flex-wrap: wrap;
+}
+
+.videos-top label {
+    padding-right: 10px;
+    color: white;
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.videos-rowsNum input {
+    background-color: transparent;
+    border: 2px solid #ECCD48;
+    border-radius: 5px;
+    width: 80px;
+    outline: 0;
+    color: white;
+    font-size: 18px;
+    padding: 7px;
+    height: 35px;
+}
+
+.videos-top select {
+    background-color: #0D1B2A;
+    border: 2px solid #ECCD48;
+    border-radius: 5px;
+    min-width: 110px;
+    outline: 0;
+    font-size: 15px;
+    padding: 7px;
+    height: 35px;
+    color: white;
+}
+
+.videos-content {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.videos-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0;
+    gap: 28px;
+}
+
+.videos-head {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    color: #0D1B2A;
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+    padding: 7px 0;
+    font-weight: bold;
+    font-family: 'Josefin Sans';
+    margin: 50px auto;
+}
+
+.videos-thumbnail {
+    grid-column: 2/span 2;
+    color: #0D1B2A;
+    background-color: #ECCD48;
+    border-radius: 5px;
+    height: 40px;
+    padding: 7px 0;
+    font-weight: bold;
+    font-family: 'Josefin Sans';
+}
+
+.videos-title {
+    grid-column: 5/span 4;
+    text-align: center;
+    color: #0D1B2A;
+    background-color: #ECCD48;
+    border-radius: 5px;
+    height: 40px;
+    padding: 7px 0;
+    font-weight: bold;
+    font-family: 'Josefin Sans';
+}
+
+.videos-select {
+    grid-column: 10/span 2;
+    text-align: center;
+    color: #0D1B2A;
+    background-color: #ECCD48;
+    border-radius: 5px;
+    height: 40px;
+    padding: 7px 0;
+    font-weight: bold;
+    font-family: 'Josefin Sans';
+}
+
+.videos-row {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.videos-row-one {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+}
+
+.videos-number {
+    grid-column: 1/span 1;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Josefin Sans';
+    background-color: #415A77;
+    border: 1px solid #ECCD48;
+    color: white;
+    text-align: center;
+}
+
+.videos-row-one img {
+    grid-column: 2/span 2;
+    border: 1px solid white;
+    height: 130px;
+    width: 100%;
+}
+
+.no-thumbnail {
+    grid-column: 2/span 2;
+    border: 1px solid white;
+    height: 130px;
+    width: 100%;
+    background-color: black;
+}
+
+.videos-row input[type='text'] {
+    grid-column: 5/span 4;
+    height: 40px;
+    padding: 5px 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #ECCD48;
+    border-radius: 5px;
+    outline: 0;
+}
+
+.videos-row input[type='checkbox'] {
+    grid-column: 11/span 2;
+    height: 30px;
+    width: 30px;
+}
+
+.videos-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.videos-content button {
+    height: 40px;
+    width: 140px;
+    display: flex;
+    gap: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Josefin Sans';
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.videos-actions .activate {
+    background-color: #5FBE5F;
+}
+
+.videos-actions .deactivate {
+    background-color: #808080;
+}
+
+.videos-actions .delete {
+    background-color: #FF0000;
+}
+
+.videos-actions .recommended {
+    background-color: #415A77;
+}

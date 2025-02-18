@@ -1,0 +1,35 @@
+{
+    "features": {
+      "title": "Our Features",
+      "cards": [
+        {
+          "description": "Our website offers the best collection of English learning content available on YouTube"
+        },
+        {
+          "description": "It includes extensive content with more than 5,000 hours of educational material"
+        },
+        {
+          "description": "The educational content is highly valuable"
+        },
+        {
+          "description": "The content is organized into categories through our well-structured index"
+        },
+        {
+          "description": "Accessing any video is incredibly easy through the index"
+        },
+        {
+          "description": "The website environment is comfortable and encourages learning and persistence"
+        },
+        {
+          "description": "There are no ads to interrupt your learning process"
+        },
+        {
+          "description": "There are no side suggestions of other videos to distract or disrupt your learning path"
+        },
+        {
+          "description": "Our website is 100% free"
+        }
+      ]
+    }
+  }
+  

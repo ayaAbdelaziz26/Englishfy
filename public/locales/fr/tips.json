@@ -1,0 +1,61 @@
+{
+    "title": "Nos Conseils",
+    "tipItems": [
+      {
+        "number": 1,
+        "title": "Soyez Patient et Cohérent",
+        "content": "Apprendre l'anglais demande du temps et de la patience. Engagez-vous dans votre parcours et ne vous découragez pas si vous vous sentez frustré."
+      },
+      {
+        "number": 2,
+        "title": "Évaluez Votre Niveau",
+        "content": "Commencez par déterminer votre niveau actuel en anglais à l'aide d'un site web spécialisé. Après six mois, refaites le test pour évaluer vos progrès et constater la différence dans vos compétences."
+      },
+      {
+        "number": 3,
+        "title": "Concentrez-vous sur l'Écoute",
+        "content": "Parcourez des vidéos, choisissez du contenu adapté à vos besoins, et suivez une routine structurée d'écoute pour absorber la grammaire, le vocabulaire et la prononciation de manière naturelle."
+      },
+      {
+        "number": 4,
+        "title": "Imitez la Prononciation",
+        "content": "Imitez la prononciation correcte des vidéos et utilisez des outils comme Google Translate pour obtenir de l'aide supplémentaire."
+      },
+      {
+        "number": 5,
+        "title": "Apprenez de Nouvelles Mots et Expressions",
+        "content": "Mémorisez 10 nouveaux mots et 3 expressions chaque jour. Suivez-les dans un carnet pour améliorer votre rétention."
+      },
+      {
+        "number": 6,
+        "title": "Pratiquez la Grammaire en Écoutant",
+        "content": "Améliorez votre grammaire en écoutant régulièrement des vidéos pertinentes et en appliquant ce que vous avez appris."
+      },
+      {
+        "number": 7,
+        "title": "Lisez Tous les Jours",
+        "content": "Lisez à haute voix chaque jour pour améliorer votre fluidité et votre confiance."
+      },
+      {
+        "number": 8,
+        "title": "Pratiquez l'Écriture",
+        "content": "Écrivez des sujets courts dans votre langue maternelle, traduisez-les en anglais et perfectionnez vos compétences par la pratique."
+      },
+      {
+        "number": 9,
+        "title": "Restez Organisé",
+        "content": "Choisissez des vidéos adaptées à votre niveau, revoyez-les régulièrement et maintenez la cohérence pour mieux retenir les informations."
+      },
+      {
+        "number": 10,
+        "title": "Utilisez des Sous-titres (CC)",
+        "content": "Utilisez les sous-titres YouTube pour aider à traduire et à comprendre le contenu vidéo."
+      },
+      {
+        "number": 11,
+        "title": "Pratique Quotidienne",
+        "content": "Consacrez deux heures par jour à apprendre et à appliquer vos compétences dans des conversations réelles."
+      }
+    ]
+  }
+  

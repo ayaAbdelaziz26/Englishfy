@@ -1,0 +1,45 @@
+{
+    "basics": {
+      "title": "Basics of English",
+      "intro": {
+        "heading": "The English language consists of four essential components",
+        "imageAlt": "An illustration representing the basics of English"
+      },
+      "episodes": [
+        {
+          "number": "01",
+          "title": "Vocabulary",
+          "content": [
+            "Words and expressions used for communication",
+            "Can be learned through reading texts and watching videos"
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Grammar",
+          "content": [
+            "The rules that govern sentence structure (e.g., tenses, pronouns, conjunctions)",
+            "Learn it gradually, focusing more on practical application than theoretical memorization"
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Core Skills",
+          "content": [
+            "Listening: Understanding language through sound.",
+            "Speaking: Interacting using the language.",
+            "Reading: Comprehending written texts.",
+            "Writing: Expressing ideas in writing."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Pronunciation",
+          "content": [
+            "The correct way to pronounce words.",
+            "Learn it by imitating native speakers and practicing speaking out loud."
+          ]
+        }
+      ]
+    }
+  }

@@ -1,0 +1,64 @@
+{
+    "faq": {
+      "title": "Get answers for the most common questions",
+      "questions": [
+        {
+          "question": "What is the difference between learning through YouTube directly and your website?",
+          "answer": "YouTube offers millions of videos on various topics and in different languages, while our website focuses solely on carefully selected videos for learning English. We've indexed these videos to make access easier and the learning experience more organized and enjoyable."
+        },
+        {
+          "question": "How was the website's index created?",
+          "answer": "We searched YouTube for the best English learning videos and organized them into categorized sections. For example, the grammar section includes over 2,000 videos dedicated solely to teaching grammar."
+        },
+        {
+          "question": "What content does the website offer?",
+          "answer": "The website features 38 educational topics, each containing specialized videos on topics like grammar, pronunciation, or phonetics. In total, there are over 18,000 videos with more than 5,000 hours of educational content."
+        },
+        {
+          "question": "Do I need to watch all 5,000 hours of content?",
+          "answer": "No, listening for just 2 hours daily over the course of a year (about 600 hours/year) can significantly improve your English. You can choose content that suits your level."
+        },
+        {
+          "question": "How do I use the website?",
+          "answer": "Using the website is very simple. From the homepage, select the topic you’re interested in, choose a video, and press play. No username or password is required."
+        },
+        {
+          "question": "Does the website offer complete courses?",
+          "answer": "The website doesn’t provide sequential courses but instead offers a rich collection of high-quality educational videos to help you learn English effectively without needing a specific order."
+        },
+        {
+          "question": "Is the website suitable for all levels of English learners?",
+          "answer": "Yes, it’s suitable for beginners, intermediate, and advanced learners. However, it may not be ideal for those who have no basic knowledge of English. Such users are advised to start with specialized centers."
+        },
+        {
+          "question": "Can I improve my English using the website?",
+          "answer": "Absolutely! The content is valuable and comprehensive. Your progress depends on your dedication and effort."
+        },
+        {
+          "question": "How much time should I spend daily to learn English?",
+          "answer": "It’s recommended to dedicate 2 hours daily, but the time varies based on your current level and circumstances. Consistency and repetition are key."
+        },
+        {
+          "question": "How long does it take to master English?",
+          "answer": "For intermediate or lower-level learners, dedicating 2 hours daily for a year (approximately 600 hours) can lead to significant improvement, according to experts."
+        },
+        {
+          "question": "What is the most important tip for learning English through the website?",
+          "answer": "Never give up. Focus on consistent and frequent listening to the videos, as it enhances pronunciation, vocabulary, grammar, and idiomatic expressions."
+        },
+        {
+          "question": "Is the website free?",
+          "answer": "Yes, the website is completely free and accessible to everyone. All you need is dedication and a willingness to learn."
+        },
+        {
+          "question": "Why should I donate to the website?",
+          "answer": "Donations help cover the costs of hosting, maintenance, and continuous development. Your support ensures the website remains free for everyone."
+        },
+        {
+          "question": "How can I donate?",
+          "answer": "You can donate by clicking the 'Donate' button and choosing your preferred method: Visa, MasterCard, PayPal, or Patreon."
+        }
+      ]
+    }
+  }
+  
