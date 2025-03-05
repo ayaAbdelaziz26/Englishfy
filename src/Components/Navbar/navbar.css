@@ -1,0 +1,56 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d1b2a;
+    height: 50px;
+}
+
+.navbar-link{
+    color: #ECCD48;
+    text-decoration: none;
+}
+
+.navbar-left img{
+    width: 50px;
+    height: 55px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    color: #ECCD48;
+    font-family: "Josefin Sans";
+    align-items: center;
+    gap: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.navbar-right{
+    display: flex;
+}
+
+.translate-img, .donate-img,.share-img{
+    width: 40px;
+    height: 40px;
+}
+
+.menue-icon{
+    display: none;
+}
+
+@media(max-width:992px){
+    nav{
+        display: none;
+    }
+
+    .translate-img,.donate-img, .share-img{
+        width: 40px;
+        height: 40px;
+    }
+}

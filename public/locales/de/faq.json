@@ -1,0 +1,64 @@
+{
+    "faq": {
+      "title": "Holen Sie sich Antworten auf die häufigsten Fragen",
+      "questions": [
+        {
+          "question": "Was ist der Unterschied zwischen dem Lernen direkt über YouTube und Ihrer Website?",
+          "answer": "YouTube bietet Millionen von Videos zu verschiedenen Themen und in verschiedenen Sprachen, während unsere Website sich ausschließlich auf sorgfältig ausgewählte Videos zum Englischlernen konzentriert. Wir haben diese Videos indexiert, um den Zugriff zu erleichtern und das Lernerlebnis organisierter und angenehmer zu gestalten."
+        },
+        {
+          "question": "Wie wurde das Index der Website erstellt?",
+          "answer": "Wir haben auf YouTube nach den besten Videos zum Englischlernen gesucht und diese in kategorisierte Abschnitte organisiert. Zum Beispiel enthält der Grammatikbereich mehr als 2.000 Videos, die ausschließlich auf das Erlernen der Grammatik ausgerichtet sind."
+        },
+        {
+          "question": "Welchen Inhalt bietet die Website?",
+          "answer": "Die Website bietet 38 Bildungsthemen, von denen jedes spezialisierte Videos zu Themen wie Grammatik, Aussprache oder Phonetik enthält. Insgesamt gibt es mehr als 18.000 Videos und mehr als 5.000 Stunden Bildungsinhalte."
+        },
+        {
+          "question": "Muss ich alle 5.000 Stunden Inhalte ansehen?",
+          "answer": "Nein, wenn du täglich nur 2 Stunden im Jahr hörst (ca. 600 Stunden/Jahr), kann sich dein Englisch erheblich verbessern. Du kannst den Inhalt auswählen, der deinem Niveau entspricht."
+        },
+        {
+          "question": "Wie benutze ich die Website?",
+          "answer": "Die Nutzung der Website ist ganz einfach. Wählen Sie auf der Startseite das Thema aus, das Sie interessiert, wählen Sie ein Video und drücken Sie auf 'Play'. Kein Benutzername oder Passwort erforderlich."
+        },
+        {
+          "question": "Bietet die Website komplette Kurse an?",
+          "answer": "Die Website bietet keine sequenziellen Kurse an, sondern eine umfangreiche Sammlung hochwertiger Bildungs-Videos, die dir helfen, Englisch effektiv zu lernen, ohne einer bestimmten Reihenfolge zu folgen."
+        },
+        {
+          "question": "Ist die Website für alle Englischlernenden geeignet?",
+          "answer": "Ja, sie ist für Anfänger, Fortgeschrittene und Experten geeignet. Es ist jedoch möglicherweise nicht ideal für diejenigen, die keine grundlegenden Englischkenntnisse haben. Diese Benutzer sollten mit spezialisierten Zentren beginnen."
+        },
+        {
+          "question": "Kann ich mein Englisch mit der Website verbessern?",
+          "answer": "Absolut! Der Inhalt ist wertvoll und umfassend. Dein Fortschritt hängt von deinem Engagement und deinen Bemühungen ab."
+        },
+        {
+          "question": "Wie viel Zeit sollte ich täglich investieren, um Englisch zu lernen?",
+          "answer": "Es wird empfohlen, täglich 2 Stunden zu investieren, aber es hängt von deinem aktuellen Niveau und den Umständen ab. Konsistenz und Wiederholung sind entscheidend."
+        },
+        {
+          "question": "Wie lange dauert es, Englisch zu meistern?",
+          "answer": "Für Lernende mit mittleren oder niedrigen Kenntnissen reicht es aus, täglich 2 Stunden für ein Jahr (ca. 600 Stunden) zu investieren, um erhebliche Fortschritte zu erzielen, so Experten."
+        },
+        {
+          "question": "Was ist der wichtigste Tipp zum Englischlernen über die Website?",
+          "answer": "Gib nie auf. Konzentriere dich darauf, die Videos konstant und regelmäßig zu hören, denn das verbessert Aussprache, Wortschatz, Grammatik und Redewendungen."
+        },
+        {
+          "question": "Ist die Website kostenlos?",
+          "answer": "Ja, die Website ist völlig kostenlos und für alle zugänglich. Alles, was du brauchst, ist Hingabe und der Wille zu lernen."
+        },
+        {
+          "question": "Warum sollte ich der Website spenden?",
+          "answer": "Spenden helfen, die Kosten für Hosting, Wartung und kontinuierliche Entwicklung zu decken. Deine Unterstützung stellt sicher, dass die Website für alle kostenlos bleibt."
+        },
+        {
+          "question": "Wie kann ich spenden?",
+          "answer": "Du kannst spenden, indem du auf die Schaltfläche 'Spenden' klickst und deine bevorzugte Zahlungsmethode wählst: Visa, MasterCard, PayPal oder Patreon."
+        }
+      ]
+    }
+  }
+  

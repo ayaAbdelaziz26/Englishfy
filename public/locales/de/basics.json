@@ -1,0 +1,45 @@
+{
+    "basics": {
+      "title": "Grundlagen der englischen Sprache",
+      "intro": {
+        "heading": "Die englische Sprache besteht aus vier wesentlichen Komponenten",
+        "imageAlt": "Eine Illustration, die die Grundlagen der englischen Sprache darstellt"
+      },
+      "episodes": [
+        {
+          "number": "01",
+          "title": "Wortschatz",
+          "content": [
+            "Wörter und Ausdrücke, die für die Kommunikation verwendet werden",
+            "Kann durch das Lesen von Texten und das Ansehen von Videos gelernt werden"
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Grammatik",
+          "content": [
+            "Die Regeln, die die Satzstruktur bestimmen (z. B. Zeiten, Pronomen, Konjunktionen)",
+            "Lernen Sie es schrittweise, indem Sie sich mehr auf die praktische Anwendung als auf das theoretische Auswendiglernen konzentrieren"
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Kernfähigkeiten",
+          "content": [
+            "Hören: Sprache durch Klang verstehen.",
+            "Sprechen: Mit der Sprache interagieren.",
+            "Lesen: Geschriebene Texte verstehen.",
+            "Schreiben: Ideen schriftlich ausdrücken."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Aussprache",
+          "content": [
+            "Die richtige Aussprache von Wörtern.",
+            "Lernen Sie es, indem Sie Muttersprachler nachahmen und laut üben."
+          ]
+        }
+      ]
+    }
+  }  

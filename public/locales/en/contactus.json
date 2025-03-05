@@ -1,0 +1,17 @@
+{
+    "contactUs": {
+      "title": "Contact Us",
+      "form": {
+        "fullName": "Full Name",
+        "email": "Email",
+        "message": "Message",
+        "placeholders": {
+          "name": "Enter your name",
+          "email": "Enter your email",
+          "message": "Write your message"
+        },
+        "submit": "Send"
+      }
+    }
+  }
+  

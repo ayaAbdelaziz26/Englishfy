@@ -1,0 +1,46 @@
+{
+    "basics": {
+      "title": "Fundamentos del inglés",
+      "intro": {
+        "heading": "El idioma inglés consta de cuatro componentes esenciales",
+        "imageAlt": "Una ilustración que representa los fundamentos del inglés"
+      },
+      "episodes": [
+        {
+          "number": "01",
+          "title": "Vocabulario",
+          "content": [
+            "Palabras y expresiones utilizadas para la comunicación",
+            "Se puede aprender leyendo textos y viendo videos"
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Gramática",
+          "content": [
+            "Las reglas que rigen la estructura de las oraciones (por ejemplo, tiempos verbales, pronombres, conjunciones)",
+            "Aprenderla gradualmente, enfocándose más en la aplicación práctica que en la memorización teórica"
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Habilidades fundamentales",
+          "content": [
+            "Escuchar: Entender el lenguaje a través del sonido.",
+            "Hablar: Interactuar usando el lenguaje.",
+            "Leer: Comprender textos escritos.",
+            "Escribir: Expresar ideas por escrito."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Pronunciación",
+          "content": [
+            "La forma correcta de pronunciar las palabras.",
+            "Aprenderlo imitando a los hablantes nativos y practicando hablando en voz alta."
+          ]
+        }
+      ]
+    }
+  }
+  

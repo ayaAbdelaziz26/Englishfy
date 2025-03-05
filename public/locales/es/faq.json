@@ -1,0 +1,64 @@
+{
+    "faq": {
+      "title": "Obtén respuestas a las preguntas más comunes",
+      "questions": [
+        {
+          "question": "¿Cuál es la diferencia entre aprender directamente en YouTube y tu sitio web?",
+          "answer": "YouTube ofrece millones de videos sobre varios temas y en diferentes idiomas, mientras que nuestro sitio web se enfoca exclusivamente en videos cuidadosamente seleccionados para aprender inglés. Hemos indexado estos videos para facilitar el acceso y hacer que la experiencia de aprendizaje sea más organizada y agradable."
+        },
+        {
+          "question": "¿Cómo se creó el índice del sitio web?",
+          "answer": "Buscamos en YouTube los mejores videos para aprender inglés y los organizamos en secciones categorizadas. Por ejemplo, la sección de gramática incluye más de 2,000 videos dedicados exclusivamente a enseñar gramática."
+        },
+        {
+          "question": "¿Qué contenido ofrece el sitio web?",
+          "answer": "El sitio web presenta 38 temas educativos, cada uno con videos especializados en temas como gramática, pronunciación o fonología. En total, hay más de 18,000 videos con más de 5,000 horas de contenido educativo."
+        },
+        {
+          "question": "¿Necesito ver las 5,000 horas de contenido?",
+          "answer": "No, escuchar solo 2 horas al día durante un año (aproximadamente 600 horas/año) puede mejorar significativamente tu inglés. Puedes elegir el contenido que se adapte a tu nivel."
+        },
+        {
+          "question": "¿Cómo usar el sitio web?",
+          "answer": "Usar el sitio web es muy sencillo. Desde la página de inicio, selecciona el tema que te interese, elige un video y presiona play. No se requiere nombre de usuario ni contraseña."
+        },
+        {
+          "question": "¿El sitio web ofrece cursos completos?",
+          "answer": "El sitio web no ofrece cursos secuenciales, sino que proporciona una rica colección de videos educativos de alta calidad para ayudarte a aprender inglés de manera efectiva sin necesidad de un orden específico."
+        },
+        {
+          "question": "¿El sitio web es adecuado para todos los niveles de aprendizaje de inglés?",
+          "answer": "Sí, es adecuado para principiantes, intermedios y avanzados. Sin embargo, puede no ser ideal para aquellos que no tienen conocimientos básicos de inglés. Se recomienda que estos usuarios comiencen con centros especializados."
+        },
+        {
+          "question": "¿Puedo mejorar mi inglés usando el sitio web?",
+          "answer": "¡Absolutamente! El contenido es valioso y completo. Tu progreso depende de tu dedicación y esfuerzo."
+        },
+        {
+          "question": "¿Cuánto tiempo debo dedicar diariamente para aprender inglés?",
+          "answer": "Se recomienda dedicar 2 horas al día, pero el tiempo varía según tu nivel actual y circunstancias. La consistencia y la repetición son clave."
+        },
+        {
+          "question": "¿Cuánto tiempo se necesita para dominar el inglés?",
+          "answer": "Para los aprendices de nivel intermedio o inferior, dedicar 2 horas diarias durante un año (aproximadamente 600 horas) puede generar mejoras significativas, según los expertos."
+        },
+        {
+          "question": "¿Cuál es el consejo más importante para aprender inglés a través del sitio web?",
+          "answer": "Nunca te rindas. Concédele enfoque al escuchar de manera constante y frecuente los videos, ya que mejora la pronunciación, el vocabulario, la gramática y las expresiones idiomáticas."
+        },
+        {
+          "question": "¿El sitio web es gratuito?",
+          "answer": "Sí, el sitio web es completamente gratuito y accesible para todos. Solo necesitas dedicación y ganas de aprender."
+        },
+        {
+          "question": "¿Por qué debería donar al sitio web?",
+          "answer": "Las donaciones ayudan a cubrir los costos de alojamiento, mantenimiento y desarrollo continuo. Tu apoyo asegura que el sitio siga siendo gratuito para todos."
+        },
+        {
+          "question": "¿Cómo puedo donar?",
+          "answer": "Puedes donar haciendo clic en el botón 'Donar' y eligiendo tu método preferido: Visa, MasterCard, PayPal o Patreon."
+        }
+      ]
+    }
+  }
+  

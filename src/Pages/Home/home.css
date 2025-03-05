@@ -1,0 +1,184 @@
+/* #home {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+}
+
+.home-left {
+    grid-column: 1/span 11;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    border-radius: 10px;
+    border: 3px solid #ECCD48;
+    background-color: #0d1b2a;
+    overflow: auto;
+    height: 485px;
+    width: 100%;
+    height: calc(100vh -20px);
+}
+
+.content::-webkit-scrollbar {
+    width: 4px;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background-color: #ECCD48;
+    border-radius: 8px;
+}
+
+.google-ad-top {
+    background-color: rgb(229, 223, 223);
+    height: 90px;
+    width: 728px;
+}
+
+.google-ad-right {
+    width: 300px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.google-ad-right-top, .google-ad-right-bottom{
+    height: 250px;
+    background-color: rgb(229, 223, 223);
+}
+
+.google-ad-right-small{
+    background-color: rgb(229, 223, 223);
+    height: 50px;
+}
+
+.footer-ad{
+    display: none;
+    grid-column: 1/span 12;
+    height: 90px;
+    background-color: rgb(229, 223, 223);
+}
+
+@media(max-width:969px){
+
+    .home-left {
+        grid-column: 1/span 12;
+    }
+    
+    .google-ad-right {
+        display: none;
+    }
+
+    .content{
+        height: 589px;
+    }
+
+    .google-ad-top,.footer-ad {
+        width: 320px;
+        height: 50px;
+    }
+
+    .footer-ad{
+        display: block;
+        margin: auto;
+    }
+} */
+
+
+#home {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    height: calc(100vh - 70px);
+}
+
+.home-left {
+    grid-column: 1 / span 11;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 580px; /* Ensures a minimum height */
+}
+
+.content {
+    border-radius: 10px;
+    border: 3px solid #ECCD48;
+    background-color: #0d1b2a;
+    overflow: auto;
+    width: 100%;
+    /* min-height: 490px;
+    height: auto; */
+}
+
+.content::-webkit-scrollbar {
+    width: 4px;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background-color: #ECCD48;
+    border-radius: 8px;
+}
+
+.google-ad-top {
+    background-color: rgb(229, 223, 223);
+    height: 90px;
+    width: 728px;
+    flex-shrink: 0;
+}
+
+.google-ad-right {
+    width: 300px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.google-ad-right-top,
+.google-ad-right-bottom {
+    height: 250px;
+    background-color: rgb(229, 223, 223);
+}
+
+.google-ad-right-small {
+    background-color: rgb(229, 223, 223);
+    height: 50px;
+}
+
+.footer-ad {
+    display: none;
+    grid-column: 1 / span 12;
+    height: 50px;
+    background-color: rgb(229, 223, 223);
+}
+
+footer {
+    height: 50px;
+    background-color: lightgray;
+    flex-shrink: 0;
+}
+
+@media (max-width: 969px) {
+    .home-left {
+        grid-column: 1 / span 12;
+    }
+
+    .google-ad-right {
+        display: none;
+    }
+
+    .google-ad-top,
+    .footer-ad {
+        width: 320px;
+        height: 50px;
+    }
+
+    .footer-ad {
+        display: block;
+        margin: 0 auto;
+    }
+}
+

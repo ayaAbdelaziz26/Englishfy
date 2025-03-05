@@ -1,0 +1,25 @@
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: #415A77;
+    color: #fff;
+    font-family: 'Josefin Sans';
+    font-size: 19px;
+    font-weight: 500;
+    border: 2px solid #ECCD48;
+}
+
+.feature-card img{
+    height: 64px;
+    width: 64px;
+}
+
+.feature-card p{
+    text-align: center;
+}

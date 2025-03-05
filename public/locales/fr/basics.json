@@ -1,0 +1,46 @@
+{
+    "basics": {
+      "title": "Notions de base en anglais",
+      "intro": {
+        "heading": "La langue anglaise se compose de quatre éléments essentiels",
+        "imageAlt": "Une illustration représentant les notions de base en anglais"
+      },
+      "episodes": [
+        {
+          "number": "01",
+          "title": "Vocabulaire",
+          "content": [
+            "Mots et expressions utilisés pour la communication",
+            "Peut être appris en lisant des textes et en regardant des vidéos"
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Grammaire",
+          "content": [
+            "Les règles qui régissent la structure des phrases (par exemple, les temps, les pronoms, les conjonctions)",
+            "Apprenez-le progressivement en vous concentrant davantage sur l'application pratique que sur la mémorisation théorique"
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Compétences fondamentales",
+          "content": [
+            "Écoute : Comprendre la langue à travers le son.",
+            "Parler : Interagir en utilisant la langue.",
+            "Lecture : Comprendre des textes écrits.",
+            "Écriture : Exprimer des idées par écrit."
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Prononciation",
+          "content": [
+            "La manière correcte de prononcer les mots.",
+            "Apprenez-la en imitant des locuteurs natifs et en pratiquant à voix haute."
+          ]
+        }
+      ]
+    }
+  }
+  

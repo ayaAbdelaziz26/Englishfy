@@ -1,0 +1,135 @@
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.topics-content {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.topics-content img {
+    height: 30px;
+    width: 30px;
+}
+
+.topics-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.topics-rowsNum label {
+    padding-right: 10px;
+    color: white;
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.topics-rowsNum input {
+    background-color: transparent;
+    border: 2px solid #ECCD48;
+    border-radius: 5px;
+    width: 80px;
+    outline: 0;
+    color: white;
+    font-size: 18px;
+    padding: 7px;
+    height: 35px;
+}
+
+.topics-head,
+.topics-row-one {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+}
+
+.topics-head div {
+    grid-column: 3/span 8;
+    background-color: #ECCD48;
+    border-radius: 5px;
+    height: 40px;
+    font-weight: bold;
+    font-family: 'Josefin Sans';
+    text-align: center;
+    padding: 7px 0;
+    margin: 30px 0;
+}
+
+.topics-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.topics-row {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.topic-number {
+    grid-column: 2/span 1;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Josefin Sans';
+    background-color: #415A77;
+    border: 1px solid #ECCD48;
+    color: white;
+    text-align: center;
+}
+
+.topics-row input {
+    grid-column: 3/span 8;
+    height: 40px;
+    padding: 5px 0;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #ECCD48;
+    border-radius: 5px;
+    outline: 0;
+}
+
+.topic-actions {
+    grid-column: 11/span 1;
+}
+
+.topic-actions img {
+    margin: 0 15px;
+}
+.topics-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 0;
+}
+.topics-content .topics-btns button {
+    height: 40px;
+    width: 150px;
+    display: flex;
+    gap: 10px;
+    background-color: #ECCD48;
+    border: 0;
+    border-radius: 5px;
+    color: #0D1B2A;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Josefin Sans';
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.topics-content button img {
+    width: 15px;
+    height: 15px;
+}

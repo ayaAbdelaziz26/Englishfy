@@ -1,0 +1,222 @@
+.video-home {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    border-radius: 10px;
+}
+
+.show-video {
+    grid-column: 1/span 9;
+    margin: 5px;
+    color: white;
+    font-family: 'Josefin Sans';
+
+}
+
+.show-video.maximize {
+    grid-column: 1/span 12;
+}
+
+.show-video-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 55px;
+    background-color: #0D1B2A;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.show-video-title h2 {
+    font-size: 23px;
+    padding: 0 7px;
+    margin: 0;
+}
+
+.show-video-duration {
+    display: flex;
+    gap: 10px;
+}
+
+.show-video-title .hour-icon,.show-video-title .video-icon{
+    width: 20px;
+}
+
+.show-video-title .back-icon{
+    width: 30px;
+}
+
+.show-video-content .icons {
+    cursor: pointer;
+}
+
+.show-video-duration span,
+.show-video-duration span {
+    color: white;
+    font-size: 23px;
+    padding: 0 12px;
+    margin-top:6px ;
+}
+
+.show-video-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 3px solid #415A77;
+    border-radius: 10px;
+    background-color: #0D1B2A;
+    font-family: 'Josefin Sans';
+    padding: 5px;
+    min-height: calc(100vh - 326px);
+}
+
+.show-video-content .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.show-video-content .video {
+    width: 100%;
+    background-color: gray;
+    height: calc(100vh - 368px);
+}
+
+.show-video-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 55px;
+    background-color: #0D1B2A;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.show-video-name h3 {
+    margin: 0;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.playlist {
+    grid-column: 10/span 3;
+    margin: 5px;
+}
+
+.playlist.maximize {
+    display: none;
+}
+
+.playlist-head {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #ECCD48;
+    height: 55px;
+    background-color: #0D1B2A;
+    margin-bottom: 5px;
+}
+
+.playlist-head h2 {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans';
+    font-size: 19px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.playlist-head img {
+    width: 30px;
+    height: 30px;
+}
+
+.playlist-videos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border: 3px solid #415A77;
+    border-radius: 10px;
+    background-color: #0D1B2A;
+    font-family: 'Josefin Sans';
+    padding: 5px;
+    height: calc(100vh - 245px);
+    overflow: auto;
+}
+
+.playlist-videos div {
+    position: relative;
+    height: 210px;
+    background-color: #ECCD48;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s ease;
+    cursor: pointer;
+}
+
+.playlist-videos div h3{
+    font-size: 14px;
+    text-align: center;
+    padding: 7px;
+    margin: auto;
+    color: #0D1B2A;
+    font-weight: bold;
+    font-family: 'Josefin Sans';
+} 
+
+.playlist-videos img {
+    width: 100%;
+    height: 50%;
+    border-radius: 5px 5px 10px 10px;
+}
+
+.playlist-videos div .recommend-label {
+    width: 70px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+.playlist-videos::-webkit-scrollbar {
+    width: 5px;
+}
+
+.playlist-videos::-webkit-scrollbar-thumb {
+    background-color: #ECCD48;
+    border-radius: 8px;
+}
+
+  @media(max-width:969px){
+    .show-video-title h2 {
+        font-size: 14px;
+    }
+
+    .show-video {
+        grid-column: 1/span 12;
+    }
+
+    .playlist {
+        grid-column: 1/span 12;
+    }
+
+
+    .playlist-videos {
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+
+    .icons img{
+        display: none;
+      }
+  }

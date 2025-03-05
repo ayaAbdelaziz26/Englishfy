@@ -1,0 +1,30 @@
+.footer {
+    grid-column: 1/span 12;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    width: calc(100% + 2%);
+    position: relative;
+    left: -1%;
+    font-family: 'Josefin Sans';
+
+    display: flex;
+    justify-content: space-between;
+    background-color:  #1a1a1a;
+    color: #fff;
+    height: 55px;
+  }
+
+  .footer ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    padding: 0;
+  }
+
+  .footer ul li a{
+    color: #fff;
+    text-decoration: none;
+  }

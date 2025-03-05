@@ -1,0 +1,74 @@
+{
+    "terms": {
+      "title": "Términos y Condiciones",
+      "intro": "Al usar el sitio web (plataforma \"Englishfy\"), el usuario acepta los términos y condiciones de este acuerdo. Si el usuario no está satisfecho con el sitio web o su contenido, puede dejar de usarlo. Los términos y condiciones incluyen lo siguiente:",
+      "sections": [
+        {
+          "title": "1: Acceso al Sitio Web",
+          "content": [
+            "El usuario es el único responsable de hacer todos los arreglos necesarios para acceder al sitio web.",
+            "Englishfy se reserva el derecho de restringir, modificar o terminar el acceso al sitio web y a los servicios o contenidos proporcionados a través de él, a su sola discreción, sin previo aviso.",
+            "Englishfy no será responsable de la no disponibilidad del sitio web, independientemente de la duración o el momento."
+          ]
+        },
+        {
+          "title": "2: Obligaciones y Compromisos del Usuario",
+          "content": [
+            "El usuario tiene derecho a utilizar el sitio web únicamente para aprender inglés y dentro de los límites de este acuerdo.",
+            "El usuario se compromete a no utilizar el sitio web de manera que infrinja las leyes locales o internacionales.",
+            "El usuario se compromete a no enviar, recibir, cargar o utilizar materiales que no cumplan con los estándares de contenido descritos a continuación.",
+            "El usuario se compromete a no hacerse pasar o intentar hacerse pasar por la plataforma, su personal, otros usuarios o cualquier otra entidad.",
+            "El usuario se compromete a no tomar acciones que puedan interrumpir, dañar o interferir con el sitio web o su uso por otros.",
+            "El usuario se compromete a no usar ninguna tecnología, dispositivo electrónico u otros medios para acceder al sitio web con fines ilícitos o para violar este acuerdo.",
+            "El usuario se compromete a no introducir o intentar introducir virus u otros materiales dañinos al sitio web.",
+            "El usuario se compromete a no compartir ninguna marca registrada o enlaces externos en el sitio web sin la previa aprobación por escrito de un representante autorizado de la plataforma."
+          ]
+        },
+        {
+          "title": "3: Monitoreo, Seguridad y Terminación del Servicio",
+          "content": [
+            "La administración de la plataforma se reserva el derecho de tomar las acciones legales necesarias, incluida la remisión a las autoridades legales, en casos de uso ilegal del sitio web.",
+            "La administración de la plataforma se reserva el derecho de divulgar la identidad e información del usuario, a su sola discreción, a cualquier parte que afirme que el contenido del usuario infringe sus derechos de propiedad intelectual o de privacidad.",
+            "La administración de la plataforma se reserva el derecho de colaborar plenamente con las agencias de seguridad para identificar o divulgar información sobre las personas que publiquen materiales dañinos o inapropiados.",
+            "La plataforma no garantiza la revisión del contenido antes de su publicación y no garantizará la eliminación inmediata de cualquier material impugnado después de la publicación. En consecuencia, la plataforma rechaza toda responsabilidad por acciones u omisiones relacionadas con el contenido proporcionado por terceros."
+          ]
+        },
+        {
+          "title": "4: Privacidad",
+          "content": [
+            "Toda la información proporcionada por el sitio web está sujeta a la política de privacidad. Al usar el sitio web, el usuario acepta todas las acciones tomadas con respecto a su información de acuerdo con la política de privacidad."
+          ]
+        },
+        {
+          "title": "5: No Garantías",
+          "content": [
+            "El uso del sitio web o cualquier característica obtenida a través de él es bajo el propio riesgo del usuario.",
+            "La plataforma proporciona el sitio web en una base \"tal cual\" y \"según disponibilidad\", sin garantías expresas o implícitas.",
+            "Ni la plataforma ni ninguna entidad asociada garantiza la integridad, seguridad, calidad, confiabilidad o disponibilidad del sitio web.",
+            "La plataforma niega todas las garantías, incluidas, pero no limitadas a, garantías implícitas de comerciabilidad, no infracción o adecuación para un propósito particular."
+          ]
+        },
+        {
+          "title": "6: Limitación de Responsabilidad",
+          "content": [
+            "En la medida en que lo permita la ley, la plataforma y su personal no serán responsables de ningún daño especial, incidental, indirecto o consecuente que surja del uso del sitio web.",
+            "El usuario asume toda la responsabilidad por los daños derivados del uso indebido del sitio web."
+          ]
+        },
+        {
+          "title": "7: Cambios a Esta Política",
+          "content": [
+            "La plataforma se reserva el derecho de modificar los términos de esta política a su discreción en cualquier momento.",
+            "Cualquier cambio entrará en vigor una vez que se publique en el sitio web.",
+            "El uso continuado del sitio web por parte del usuario constituye la aceptación de todos los términos y condiciones actualizados."
+          ]
+        },
+        {
+          "title": "8: Acuerdo Completo",
+          "content": [
+            "Este acuerdo constituye el único acuerdo entre el usuario y la plataforma con respecto al uso del sitio web y reemplaza todos los acuerdos previos, representaciones y garantías, ya sean escritos o verbales."
+          ]
+        }
+      ]
+    }
+  }  

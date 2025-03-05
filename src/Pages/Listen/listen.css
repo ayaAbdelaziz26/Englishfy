@@ -1,0 +1,64 @@
+/* Container Styling */
+.listen-page {
+    font-family: 'Josefin Sans';
+    padding: 50px 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .listen-container {
+    background-color:#415A77;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 1100px;
+    width: 100%;
+  }
+  
+  /* Heading Styling */
+  .listen-title {
+    color: #ECCD48;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Josefin Sans';
+  }
+  
+  /* List Styling */
+  .listen-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .listen-list li {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.6;
+    background: #0D1B2A;
+    border-left: 6px solid #ECCD48;
+    border-right: 6px solid #ECCD48;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  /* Strong Text */
+  .listen-list li strong {
+    color: #ECCD48;
+    font-size: 22px;
+  }
+  
+  /* Conclusion Text */
+  .listen-conclusion {
+    font-size: 1.1rem;
+    color: #333333;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  

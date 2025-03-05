@@ -1,0 +1,61 @@
+{
+    "title": "Nuestros Consejos",
+    "tipItems": [
+      {
+        "number": 1,
+        "title": "Sé Paciente y Consistente",
+        "content": "Aprender inglés requiere tiempo y paciencia. Comprométete con tu viaje y no te rindas si te sientes frustrado."
+      },
+      {
+        "number": 2,
+        "title": "Evalúa tu Nivel",
+        "content": "Comienza determinando tu nivel actual de inglés mediante un sitio web especializado. Después de seis meses, vuelve a realizar la prueba para evaluar tu progreso y notar la diferencia en tus habilidades."
+      },
+      {
+        "number": 3,
+        "title": "Concéntrate en la Escucha",
+        "content": "Navega por videos, elige contenido que se adapte a tus necesidades y sigue una rutina estructurada de escucha para absorber la gramática, el vocabulario y la pronunciación de manera natural."
+      },
+      {
+        "number": 4,
+        "title": "Imita la Pronunciación",
+        "content": "Imita la pronunciación correcta de los videos y utiliza herramientas como Google Translate para obtener ayuda adicional."
+      },
+      {
+        "number": 5,
+        "title": "Aprende Nuevas Palabras y Expresiones",
+        "content": "Memoriza 10 palabras nuevas y 3 expresiones cada día. Haz un seguimiento de ellas en un cuaderno para mejorar la retención."
+      },
+      {
+        "number": 6,
+        "title": "Practica Gramática a Través de la Escucha",
+        "content": "Mejora tu gramática escuchando videos relevantes de forma constante y aplicando lo que has aprendido."
+      },
+      {
+        "number": 7,
+        "title": "Lee Todos los Días",
+        "content": "Lee en voz alta todos los días para mejorar tu fluidez y confianza."
+      },
+      {
+        "number": 8,
+        "title": "Practica la Escritura",
+        "content": "Escribe temas breves en tu lengua materna, tradúcelos al inglés y perfecciona tus habilidades a través de la práctica."
+      },
+      {
+        "number": 9,
+        "title": "Mantente Organizado",
+        "content": "Elige videos que se adapten a tu nivel, revísalos con frecuencia y mantén la consistencia para una mejor retención."
+      },
+      {
+        "number": 10,
+        "title": "Usa Subtítulos (CC)",
+        "content": "Usa subtítulos en YouTube para ayudar a traducir y comprender el contenido del video."
+      },
+      {
+        "number": 11,
+        "title": "Práctica Diaria",
+        "content": "Dedica dos horas al día para aprender y aplicar tus habilidades en conversaciones reales."
+      }
+    ]
+  }
+  

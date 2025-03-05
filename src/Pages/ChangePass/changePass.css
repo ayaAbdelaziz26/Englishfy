@@ -1,0 +1,88 @@
+.change-pass {
+  width: 60%;
+  background-color: #415A77;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  border: 2px solid #ECCD48;
+  border-radius: 15px;
+}
+
+.change-pass label {
+  color: white;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.change-pass form {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 90%;
+  padding: 35px 0%;
+  margin: auto;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.change-pass form .input-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.change-pass form .input-field label {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: white;
+  font-family: 'Josefin Sans';
+  font-weight: bold;
+  padding: 10px;
+}
+
+.change-pass form .input-field input {
+  width: 55%;
+  height: 45px;
+  padding: 15px;
+  border: 2px solid #ECCD48;
+  border-radius: 10px;
+  color: white;
+  font-size: 17px;
+  font-family: sans-serif;
+  outline: 0;
+  background-color: transparent;
+}
+
+.change-pass form button {
+  background-color: #ECCD48;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  color: #0D1B2A;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Josefin Sans';
+  outline: 0;
+  display: block;
+  margin: auto;
+}
+
+
+@media(max-width:992px) {
+
+  .change-pass form {
+    width: 70%;
+    padding: 35px 0;
+  }
+
+  .change-pass form .input-field {
+    flex-direction: column;
+  }
+
+  .change-pass form .input-field input {
+    width: 80%;
+  }
+}

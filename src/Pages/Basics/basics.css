@@ -1,0 +1,123 @@
+.basics{
+    padding: 50px 20px;
+}
+
+.basics h1{
+  color: #ECCD48;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Josefin Sans';
+}
+
+.basics-intro{
+    background-color: #ECCD48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+    min-height: 350px;
+    border: 2px solid #fff;
+}
+
+.basics-intro img{
+  width: 60%;
+  min-height: 350px;
+    border-radius: 180px 10px 180px 10px;
+}
+
+.basics-intro h2{
+    text-align: center;
+    font-family: 'Josefin Sans';
+    color: #0D1B2A;
+    font-size: 37px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 20px;
+    width: 40%;
+}
+
+.basics p {
+    margin: 0 0 13px 0;
+  }
+  
+  .basics a {
+    color: #fff;
+  }
+  
+  .center { text-align: center; }
+  
+  .basics .episode {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    position: relative;
+  }
+  
+  .basics .episode__number {
+    font-size: 60px;
+    font-weight: 600;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    height: calc(10vw + 20px);
+    transition: all 0.2s ease-in;
+    color: #ECCD48;
+  }
+  
+  .basics .episode__content {
+    border-top: 2px solid #fff;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+    padding: 15px 0;
+  }
+  
+  .basics .episode__content .title {
+    font-weight: 600;
+    color: #415A77;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .basics .episode__content .story {
+    line-height: 26px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .basics .episode__content {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .basics .episode__content .story {
+      font-size: 15px;
+    }
+  }
+
+  @media(max-width:992px){
+    .basics-intro{
+        flex-direction: column;
+    }
+
+    
+.basics-intro img{
+  width: 100%;
+  height: 60%;
+}
+
+.basics-intro h2{
+  font-size: 33px;
+  width: 100%;
+  height: 40%;
+}
+  }
