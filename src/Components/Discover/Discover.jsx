@@ -113,6 +113,14 @@ function Discover() {
         <MenuItem onClick={handleClose} disableRipple>
           <StyledLink to="/tips">Tips</StyledLink>
         </MenuItem>
+
+        <MenuItem onClick={handleClose} disableRipple>
+          <StyledLink to="/terms">Terms</StyledLink>
+        </MenuItem>
+
+        <MenuItem onClick={handleClose} disableRipple>
+          <StyledLink to="/privacy">Privacy policy</StyledLink>
+        </MenuItem>
       </StyledMenu>
     </div>
   );

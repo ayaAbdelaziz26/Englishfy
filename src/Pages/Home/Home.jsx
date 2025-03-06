@@ -27,10 +27,10 @@ const Home = () => {
                 <div className="google-ad-right-bottom">
                     This is the third ad.
                 </div>
-
+{/* 
                 <div className="google-ad-right-small">
                     this is fourth ad
-                </div>
+                </div> */}
             </div>
 
             <div className='footer-ad'>this is footer ad.</div>

@@ -103,6 +103,16 @@ const MobileMenue = () => {
               FAQ
             </Link>
           </li>
+          <li onClick={()=>{setIsMenuOpen(false)}}>
+            <Link to='/terms'>
+            Terms
+            </Link>
+          </li>
+          <li onClick={()=>{setIsMenuOpen(false)}}>
+            <Link to='/privacy'>
+              Privacy
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

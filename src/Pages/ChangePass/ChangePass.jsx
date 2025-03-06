@@ -57,7 +57,7 @@ const ChangePass = () => {
   };
 
   return (
-    <div>
+    <div style={{margin:'35px 16px'}}>
       <DashboredItems />
       <div className="change-pass">
         <form onSubmit={handleSubmit}>

@@ -68,7 +68,7 @@
     background-color: #0D1B2A;
     font-family: 'Josefin Sans';
     padding: 5px;
-    min-height: calc(100vh - 326px);
+    min-height: calc(100vh - 393px);
 }
 
 .show-video-content .icons {
@@ -81,7 +81,7 @@
 .show-video-content .video {
     width: 100%;
     background-color: gray;
-    height: calc(100vh - 368px);
+    height: calc(100vh - 415px);
 }
 
 .show-video-name {
@@ -145,7 +145,7 @@
     background-color: #0D1B2A;
     font-family: 'Josefin Sans';
     padding: 5px;
-    height: calc(100vh - 245px);
+    height: calc(100vh - 291px);
     overflow: auto;
 }
 
