@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import React, { useState } from 'react';
 import './contactUs.css';
 
 const ContactUs = () => {
-  const { t } = useTranslation('contactUs');
   const[fullName,setFullName]=useState("")
   const[email,setEmail]=useState("")
   const[message,setMessage]=useState("")
@@ -39,45 +37,45 @@ const ContactUs = () => {
 
   return (
     <div className="contact-us">
-      <h1>{t('contactUs.title')}</h1>
+      <h1>contact us</h1>
 
       <form onSubmit={sendMail}>
         <div className="my-input">
-          <label htmlFor="name">{t('contactUs.form.fullName')}</label>
+          <label htmlFor="name">name</label>
           <input
             type="text"
             id="name"
             onChange={(e)=>{setFullName(e.target.value)}}
             value={fullName}
             required
-            placeholder={t('contactUs.form.placeholders.name')}
+            placeholder='Enter your name'
           />
         </div>
 
         <div className="my-input">
-          <label htmlFor="email">{t('contactUs.form.email')}</label>
+          <label htmlFor="email">email</label>
           <input
             type="text"
             id="email"
             value={email}
             required
             onChange={(e)=>{setEmail(e.target.value)}}
-            placeholder={t('contactUs.form.placeholders.email')}
+            placeholder='Enter your email'
           />
         </div>
 
         <div className="my-input">
-          <label htmlFor="message">{t('contactUs.form.message')}</label>
+          <label htmlFor="message">message</label>
           <textarea
             id="message"
             value={message}
             required
             onChange={(e)=>{setMessage(e.target.value)}}
-            placeholder={t('contactUs.form.placeholders.message')}
+            placeholder='Write your message'
           ></textarea>
         </div>
 
-        <button type='submit'>{t('contactUs.form.submit')}</button>
+        <button type='submit'>send</button>
       </form>
     </div>
   );

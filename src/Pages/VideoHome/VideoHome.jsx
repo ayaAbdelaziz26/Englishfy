@@ -10,7 +10,16 @@ import backIcon from '../../assets/Chevron left.png';
 import cancelIcon from '../../assets/close.png';
 import { useOutletContext } from 'react-router-dom';
 
+//use context
+import { useContext } from 'react';
+import { UserContext } from '../../Context/UserContext';
+
 const VideoHome = () => {
+
+  //use context
+  const { showRoadmap, setShowRoadmap } = useContext(UserContext);
+
+
   const { maximize, setMaximize } = useOutletContext();
   const { topicId, playlistId, itemId } = useParams(); // Added itemId
   const navigate = useNavigate();
@@ -21,10 +30,16 @@ const VideoHome = () => {
 
   const isSingleVideo = !!itemId;
 
+  const handleBack=()=>{
+    navigate('/')
+    setShowRoadmap(false)
+    console.log(showRoadmap)
+  }
+
   useEffect(() => {
     const fetchTopicDetails = async () => {
       try {
-        const response = await fetch(`http://145.223.23.146:5000/api/v1/user/topics/${topicId}`);
+        const response = await fetch(`http://localhost:5000/api/v1/user/topics/${topicId}`);
         if (response.ok) {
           const data = await response.json();
           setTopicDetails({
@@ -53,7 +68,7 @@ const VideoHome = () => {
 
         if (!isSingleVideo) {
           // Fetch playlist
-          response = await fetch(`http://145.223.23.146:5000/api/v1/user/topics/${topicId}/playlists/${playlistId}`);
+          response = await fetch(`http://localhost:5000/api/v1/user/topics/${topicId}/playlists/${playlistId}`);
           if (response.ok) {
             data = await response.json();
             setPlaylist(data.playlist.video || []);
@@ -63,7 +78,7 @@ const VideoHome = () => {
           }
         } else if (isSingleVideo) {
           // Fetch single video
-          response = await fetch(`http://145.223.23.146:5000/api/v1/user/topics/${topicId}/video/${itemId}`);
+          response = await fetch(`http://localhost:5000/api/v1/user/topics/${topicId}/video/${itemId}`);
           if (response.ok) {
             data = await response.json();
             setCurrentVideo(data.video);
@@ -84,7 +99,7 @@ const VideoHome = () => {
     <div className='video-home'>
       <div className={`show-video ${maximize || isSingleVideo ? 'maximize' : ''}`}>
         <div className="show-video-title">
-          <img src={backIcon} alt="Back" onClick={() => navigate(-1)} className='back-icon'/>
+          <img src={backIcon} alt="Back" onClick={handleBack} className='back-icon'/>
           <h2>{topicDetails.name || 'Loading...'}</h2>
 
           <div className="show-video-duration">

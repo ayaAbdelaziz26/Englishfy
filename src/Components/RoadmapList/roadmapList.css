@@ -1,0 +1,118 @@
+.roadmap {
+    padding: 4px;
+    width: 35%;
+}
+
+.roadmap-head {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #ECCD48;
+    height: 55px;
+    background-color: #0D1B2A;
+    margin-bottom: 5px;
+}
+
+.roadmap-head h2 {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans';
+    font-size: 19px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.roadmap-head img {
+    width: 30px;
+    height: 30px;
+}
+
+.roadmap-courses {
+    border: 3px solid #415A77;
+    border-radius: 10px;
+    background-color: #0D1B2A;
+    font-family: 'Josefin Sans';
+    padding: 5px;
+    height: calc(100% - 60px);
+    overflow: auto;
+}
+
+.roadmap-courses::-webkit-scrollbar {
+    width: 5px;
+}
+
+.roadmap-courses::-webkit-scrollbar-thumb {
+    background-color: #ECCD48;
+    border-radius: 8px;
+}
+
+
+.roadmap-course {
+    display: flex;
+    height: 70px;
+    position: relative;
+    align-items: center;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.roadmap-course-num {
+    width: 65%;
+    border: 2px solid white;
+    background-color: #ECCD48;
+    border-radius: 5px;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    color: #0D1B2A;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.roadmap-course-title {
+    width: 85%;
+    border: 2px solid #ECCD48;
+    background-color: #415A77;
+    border-radius: 50px 5px 5px 50px;
+    position: absolute;
+    right: 0;
+    height: 90%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.roadmap-course-duration {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.roadmap-course-duration img {
+    width: 15px;
+    height: 15px;
+}
+
+.hours,
+.videos {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.hours span,
+.videos span {
+    color: #0D1B2A;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+@media(max-width:1000px){
+    .roadmap {
+        width: 100%;
+    }
+}

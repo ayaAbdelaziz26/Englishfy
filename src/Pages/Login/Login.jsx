@@ -7,7 +7,6 @@ import Success from '../../Components/Success/Success';
 const Login = ({ forgetPass, setForgetPass }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  // const [rememberMe, setRememberMe] = useState(false);
 
   const [message, setMessage] = useState("");
   const [severity, setSeverity] = useState("success");
@@ -24,7 +23,7 @@ const Login = ({ forgetPass, setForgetPass }) => {
       return
     }
 
-    const url = 'http://145.223.23.146:5000/api/v1/admin/auth/login';
+    const url = 'http://localhost:5000/api/v1/admin/auth/login';
     const loginData = { email, password };
 
     try {

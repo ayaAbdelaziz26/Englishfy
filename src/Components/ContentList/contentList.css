@@ -1,0 +1,142 @@
+.course-videos {
+    margin: 5px;
+    color: white;
+    font-family: 'Josefin Sans';
+    width: 65%;
+}
+
+.course-videos-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #ECCD48;
+    height: 55px;
+    background-color: #0D1B2A;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.course-videos-title h2 {
+    font-size: 15px;
+    margin: 0;
+    padding: 0 7px;
+}
+
+.course-videos-duration {
+    display: flex;
+    gap: 10px;
+}
+
+.course-videos-title .hour-icon,.course-videos-title .video-icon {
+    width: 20px;
+}
+
+.course-videos-title .back-icon{
+    width: 30px;
+}
+
+.course-videos-duration span,
+.course-videos-duration span {
+    color: white;
+    font-size: 25px;
+    padding: 0 12px;
+    margin-top: 6px;
+
+}
+
+.course-videos-content {
+    gap: 10px;
+    border: 3px solid #415A77;
+    border-radius: 10px;
+    background-color: #0D1B2A;
+    font-family: 'Josefin Sans';
+    padding: 5px;
+    height: calc(100% - 60px);
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+
+.course-videos-content .video-thumbnail {
+    width: 100%;
+    height: 100px;
+}
+
+.course-videos-content div {
+    position: relative;
+    max-height: 240px;
+    background-color: #ECCD48;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s ease;
+    cursor: pointer;
+    width: 23%;
+}
+
+.course-videos-content div h3{
+    font-size: 14px;
+    text-align: center;
+    padding: 7px;
+    margin: auto;
+    color: #0D1B2A;
+    font-weight: bold;
+    font-family: 'Josefin Sans';
+} 
+
+.course-videos-content div:hover {
+    transform: scale(1.05);
+}
+
+.course-videos-content div .recommend-label {
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.playlist-label {
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-label {
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.course-videos-content div .star-icon.fill {
+    color: #ECCD48;
+}
+
+.course-videos-content::-webkit-scrollbar {
+    width: 5px;
+}
+
+.course-videos-content::-webkit-scrollbar-thumb {
+    background-color: #ECCD48;
+    border-radius: 8px;
+}
+
+@media(max-width:1000px){
+    .course-videos {
+        width: 100%;
+    }
+}
+
+@media (max-width:650px){
+    .course-videos-content div {
+        width: 45%;
+    }
+}

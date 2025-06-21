@@ -7,12 +7,18 @@ import LangMenue from '../LangMenue/LangMenue'
 import Discover from '../Discover/Discover'
 import Donate from '../Donate/Donate'
 import Share from '../Share/Share'
+import { useContext } from 'react';
+import { UserContext } from '../../Context/UserContext';
 
 const Navbar = () => {
+
+  const { setShowRoadmap } = useContext(UserContext);
+
+
   return (
     <header className='navbar'>
       <div className="navbar-left">
-       <Link to='/'><img src={Logo} alt="" /></Link>
+       <Link to='/' onClick={()=>setShowRoadmap(true)}><img src={Logo} alt="" /></Link>
       </div>
 
       <nav>

@@ -1,101 +1,33 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import "./videos.css";
 import DashboredItems from "../../Components/DashboredItems/DashboredItems";
 import Success from "../../Components/Success/Success";
+import useTopics from "../../hooks/useTopics";
+import useVideos from "../../hooks/useVideos";
 
 const Videos = () => {
-  const [rows, setRows] = useState([]);
+  const {videosRows,
+    activateVideoFun,
+    deactivateVideoFun,
+    deleteVideoFun,
+    recommendVideoFun
+  } = useVideos();
+
+  
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
   const [selectedVideos, setSelectedVideos] = useState([]);
   const [message, setMessage] = useState("");
   const [severity, setSeverity] = useState("success");
   const [openSnackbar, setOpenSnackbar] = useState(false);
-  const [topicsNames, setTopicsNames] = useState([]);
-  const [topics, setTopics] = useState([]);
+
+  const {topicsRows}  = useTopics();
 
   const [selectedCourse, setSelectedCourse] = useState("");
   const [videoFilter, setVideoFilter] = useState("");
   
   const[rowsNum,setRowsNum]=useState(25);
 
-  // Get videos
-  useEffect(() => {
-    const fetchVideos = async () => {
-      setIsLoading(true);
-
-      try {
-        const response = await fetch("http://145.223.23.146:5000/api/v1/admin/videos/", {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-            "Authorization": `Bearer ${localStorage.getItem("authToken")}`,
-          },
-        });
-
-        if (response.ok) {
-          const data = await response.json();
-          const formattedVideos = data.data.map((video, index) => ({
-            id: index + 1,
-            title: video.title,
-            thumbnail: video.thumbnailUrl,
-            videoId: video._id,
-            isActive: video.isActive,  
-            topicId: video.topicId,
-          }));
-
-          setRows(formattedVideos);
-        } else {
-          setErrorMessage("Failed to fetch videos.");
-        }
-      } catch (error) {
-        console.error("Error fetching videos:", error);
-        setErrorMessage("An error occurred while fetching videos.");
-      } finally {
-        setIsLoading(false);
-      }
-    };
-
-    fetchVideos();
-  }, []);
-
-
-  //get Topics names
-  useEffect(() => {
-    const fetchTopics = async () => {
-
-      try {
-        const response = await fetch("http://145.223.23.146:5000/api/v1/admin/topics/", {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-            "Authorization": `Bearer ${localStorage.getItem("authToken")}`,
-          },
-        });
-
-        if (response.ok) {
-          const data = await response.json();
-          setTopics(data.data)
-          const formattedTopics = data.topics.map((topic, index) => ({
-            name: topic.name,
-            topicId: topic._id,
-          }));
-
-          setTopicsNames(formattedTopics);
-
-        } else {
-          setErrorMessage("Failed to fetch topics.");
-        }
-      }
-
-      catch (error) {
-        console.error("Error fetching topics:", error);
-        setErrorMessage("An error occurred while fetching topics.");
-      }
-    };
-
-    fetchTopics();
-  }, []);
 
   const handleCheckboxChange = (videoId) => {
     const isSelected = selectedVideos.includes(videoId);
@@ -106,139 +38,31 @@ const Videos = () => {
     setSelectedVideos(updatedSelectedVideos);
   };
 
-  const activateVideo = async (videoId) => {
-    try {
-      const response = await fetch("http://145.223.23.146:5000/api/v1/admin/videos/activate", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": `Bearer ${localStorage.getItem("authToken")}`,
-        },
-        body: JSON.stringify({ videoIds: [videoId] }),
-      });
-
-      if (response.ok) {
-        setMessage(`Videos activated successfully.`);
-        setSeverity("success");
-      } else {
-        setMessage(`Failed to activate videos.`);
-        setSeverity("error");
-      }
-      setOpenSnackbar(true);
-    } catch (error) {
-      console.error("Error activating video:", error);
-      setMessage("An error occurred while activating the video.");
-      setSeverity("error");
-      setOpenSnackbar(true);
-    }
-  };
-
-  const deactivateVideo = async (videoId) => {
-    try {
-      const response = await fetch("http://145.223.23.146:5000/api/v1/admin/videos/deactivate", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": `Bearer ${localStorage.getItem("authToken")}`,
-        },
-        body: JSON.stringify({ videoIds: [videoId] }),
-      });
-
-      if (response.ok) {
-        setMessage(`Videos deactivated successfully.`);
-        setSeverity("success");
-      } else {
-        setMessage(`Failed to deactivate videos.`);
-        setSeverity("error");
-      }
-      setOpenSnackbar(true);
-    } catch (error) {
-      console.error("Error deactivating video:", error);
-      setMessage("An error occurred while deactivating the video.");
-      setSeverity("error");
-      setOpenSnackbar(true);
-    }
-  };
-
-  const deleteVideo = async (videoId) => {
-    try {
-      const response = await fetch("http://145.223.23.146:5000/api/v1/admin/videos/", {
-        method: "DELETE",
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": `Bearer ${localStorage.getItem("authToken")}`,
-        },
-        body: JSON.stringify({ videoIds: [videoId] }),
-      });
-
-      if (response.ok) {
-        setMessage(`Videos deleted successfully.`);
-        setSeverity("success");
-      } else {
-        setMessage(`Failed to delete videos.`);
-        setSeverity("error");
-      }
-      setOpenSnackbar(true);
-    } catch (error) {
-      console.error("Error deleting video:", error);
-      setMessage("An error occurred while deleting the video.");
-      setSeverity("error");
-      setOpenSnackbar(true);
-    }
-  };
-
-  const recommendVideo = async (videoId) => {
-    try {
-      const response = await fetch("http://145.223.23.146:5000/api/v1/admin/videos/recommend", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": `Bearer ${localStorage.getItem("authToken")}`,
-        },
-        body: JSON.stringify({ videoIds: [videoId] }),
-      });
-
-      if (response.ok) {
-        setMessage(`Videos marked as recommended successfully.`);
-        setSeverity("success");
-      } else {
-        setMessage(`Failed to mark videos as recommended.`);
-        setSeverity("error");
-      }
-      setOpenSnackbar(true);
-    } catch (error) {
-      console.error("Error recommending video:", error);
-      setMessage("An error occurred while recommending the video.");
-      setSeverity("error");
-      setOpenSnackbar(true);
-    }
-  };
-
   const handleActivateClick = () => {
-    selectedVideos.forEach(activateVideo);
+    selectedVideos.forEach(activateVideoFun);
   };
 
   const handleDeactivateClick = () => {
-    selectedVideos.forEach(deactivateVideo);
+    selectedVideos.forEach(deactivateVideoFun);
   };
 
   const handleDeleteClick = () => {
-    selectedVideos.forEach(deleteVideo);
+    selectedVideos.forEach(deleteVideoFun);
   };
 
   const handleRecommendClick = () => {
-    selectedVideos.forEach(recommendVideo);
+    selectedVideos.forEach(recommendVideoFun);
   };
 
 
-const filteredVideos = rows.filter(video => {
+const filteredVideos = videosRows.filter(video => {
   let matchesCourse = true;
   let matchesFilter = true;
   
 
   //  Use topicsNames instead of topics
   if (selectedCourse) {
-    const topic = topicsNames.find(t => t.topicId === video.topicId._id);
+    const topic = topicsRows.find(t => t.topicId === video.topicId._id);
     matchesCourse = topic ? topic.name === selectedCourse : false;
   }
 
@@ -287,7 +111,7 @@ const handleInputChange = (e) => {
             <label>Select course:</label>
             <select value={selectedCourse} onChange={(e) => setSelectedCourse(e.target.value)}>
               <option value="">All videos</option>
-              {topicsNames.map((topic, index) => (
+              {topicsRows.map((topic, index) => (
                 <option key={index} value={topic.name}>{topic.name}</option>
               ))}
             </select>

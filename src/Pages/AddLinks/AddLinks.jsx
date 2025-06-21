@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import useTopics from "../../hooks/useTopics";
-import useVideosApis from "../../hooks/useVideosAPI";
+import useAddLinks from "../../hooks/useAddLinks";
 import DashboredItems from "../../Components/DashboredItems/DashboredItems";
 import deleteImg from "../../assets/delete.png";
 import addIcon from "../../assets/add_circle_2.png";
@@ -9,22 +9,19 @@ import "./addLinks.css";
 
 const AddLinks = () => {
   const [selectedType, setSelectedType] = useState("video");
-  const topics  = useTopics();
+  const {topicsRows}  = useTopics();
   const {
     rows,
-    setRows,
     addRow,
     updateRow,
     deleteRow,
     handleSubmit,
     checkAvailability,
-    errors,
-    success,
     message,
     severity,
     openSnackbar,
     setOpenSnackbar,
-  } = useVideosApis();
+  } = useAddLinks();
 
   const handleRadioChange = (e) => setSelectedType(e.target.value);
 
@@ -79,8 +76,8 @@ const AddLinks = () => {
                   <option value="" disabled>
                     Select a topic
                   </option>
-                  {topics && topics.length > 0 ? (
-                    topics.map((topic, index) => (
+                  {topicsRows && topicsRows.length > 0 ? (
+                    topicsRows.map((topic, index) => (
                       <option key={index} value={topic.name}>
                         {topic.name}
                       </option>

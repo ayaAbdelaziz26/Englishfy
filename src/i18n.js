@@ -16,7 +16,7 @@ i18n
     backend: {
       loadPath: '/locales/{{lng}}/{{ns}}.json', // Use namespaces
     },
-    ns: ['aboutus', 'basics','benefits','listen','faq','features','privacy','terms','tips'],
+    ns: ['aboutus', 'basics','benefits','englisharticle','listen','faq','features','tips'],
     defaultNS: '', // Default namespace
   });
 

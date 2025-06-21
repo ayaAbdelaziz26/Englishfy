@@ -13,9 +13,13 @@ import benefitssIcon from '../../assets/benefits.png'
 import listenIcon from '../../assets/listen.png'
 import basicsIcon from '../../assets/basics.png'
 import { Link } from "react-router-dom";
+import { useContext } from 'react';
+import { UserContext } from '../../Context/UserContext';
 
 
 const MobileMenue = () => {
+  const { setShowRoadmap } = useContext(UserContext);
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -36,9 +40,16 @@ const MobileMenue = () => {
           <img src={closeIcon} alt="close" className="close" onClick={()=>{toggleMenu()}}/>
         <ul>
           <li onClick={()=>{setIsMenuOpen(false)}}>
-            <Link to='/'>
+            <Link to='/' onClick={()=>setShowRoadmap(true)}>
               <img src={homeIcon} alt="Home" />
               home
+            </Link>
+          </li>
+
+          <li onClick={()=>{setIsMenuOpen(false)}}>
+            <Link to='/aboutus'>
+              <img src={aboutIcon} alt="Contact Us" />
+              about us
             </Link>
           </li>
 
@@ -46,6 +57,20 @@ const MobileMenue = () => {
             <Link to='/englisharticle'>
               <img src={englishIcon} alt="Home" />
               why english?
+            </Link>
+          </li>
+
+          <li onClick={()=>{setIsMenuOpen(false)}}>
+            <Link to='/features'>
+              <img src={featuresIcon} alt="Home" />
+              site features
+            </Link>
+          </li>
+
+          <li onClick={()=>{setIsMenuOpen(false)}}>
+            <Link to='/benefits'>
+              <img src={benefitssIcon} alt="Home" />
+              english benefits
             </Link>
           </li>
 
@@ -64,53 +89,34 @@ const MobileMenue = () => {
           </li>
 
           <li onClick={()=>{setIsMenuOpen(false)}}>
-            <Link to='/benefits'>
-              <img src={benefitssIcon} alt="Home" />
-              english benefits
-            </Link>
-          </li>
-
-          <li onClick={()=>{setIsMenuOpen(false)}}>
-            <Link to='/features'>
-              <img src={featuresIcon} alt="Home" />
-              site features
-            </Link>
-          </li>
-
-          <li onClick={()=>{setIsMenuOpen(false)}}>
             <Link to='/tips'>
               <img src={tipsIcon} alt="Home" />
               tips
             </Link>
           </li>
 
-          
-          <li onClick={()=>{setIsMenuOpen(false)}}>
-            <Link to='/aboutus'>
-              <img src={aboutIcon} alt="Contact Us" />
-              about us
-            </Link>
-          </li>
-          <li onClick={()=>{setIsMenuOpen(false)}}>
-            <Link to='/contactus'>
-              <img src={contactIcon} alt="About Us" />
-              contact us
-            </Link>
-          </li>
           <li onClick={()=>{setIsMenuOpen(false)}}>
             <Link to='/faq'>
               <img src={faqIcon} alt="FAQ" />
               FAQ
             </Link>
           </li>
+
+          <li onClick={()=>{setIsMenuOpen(false)}}>
+            <Link to='/contactus'>
+              <img src={contactIcon} alt="About Us" />
+              contact us
+            </Link>
+          </li>
+
           <li onClick={()=>{setIsMenuOpen(false)}}>
             <Link to='/terms'>
-            Terms
+            Terms & Conditions
             </Link>
           </li>
           <li onClick={()=>{setIsMenuOpen(false)}}>
             <Link to='/privacy'>
-              Privacy
+              Privacy Policy
             </Link>
           </li>
         </ul>
