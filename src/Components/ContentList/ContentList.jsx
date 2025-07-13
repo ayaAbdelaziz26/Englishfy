@@ -18,7 +18,7 @@ const ContentList = ({selectedTopic,selectedHours,selectedVideos,selectedTopicId
     const navigate = useNavigate();
     const handlePlaylistClick = (topicId, item) => {
         if (item.numberOfVideos !== undefined) {
-            navigate(`/topics/${topicId}/playlists/${item._id}`);
+            navigate(`/topics/${topicId}/playlists/${item._id}/videos`);
         } else {
             navigate(`/topics/${topicId}/video/${item._id}`);
         }

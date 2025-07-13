@@ -109,7 +109,18 @@ main {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    height: 450px;
+    overflow: auto;
 }
+
+.videos-row::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .videos-row::-webkit-scrollbar-thumb {
+    background-color: #ECCD48;
+    border-radius: 5px;
+  }
 
 .videos-row-one {
     display: grid;

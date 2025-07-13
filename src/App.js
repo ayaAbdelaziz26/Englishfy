@@ -21,6 +21,7 @@ import ContactUs from './Pages/ContactUs/ContactUs';
 import Terms from './Pages/Terms/Terms';
 import Privacy from './Pages/Privacy/Privacy';
 import Tips from './Pages/Tips/Tips';
+import PlaylistVideos from './Pages/PlaylistVideos/PlaylistVideos';
 import ForgetPass from './Components/ForgetPass/ForgetPass';
 import ResetPass from './Pages/ResetPass/ResetPass';
 import Footer from './Components/Footer/Footer';
@@ -42,6 +43,7 @@ function AppContent({ forgetPass, setForgetPass }) {
           <Route index element={<TopicsHome />} />
           <Route path="/topics/:topicId/playlists/:playlistId" element={<VideoHome />} />
           <Route path="/topics/:topicId/video/:itemId" element={<VideoHome />} />
+          <Route path="/topics/:topicId/playlists/:playlistId/videos" element={<PlaylistVideos />} />
           <Route path="aboutus" element={<AboutUs />} />
           <Route path="faq" element={<FAQ />} />
           <Route path="englisharticle" element={<EnglishArticle />} />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./topics.css";
 import editIcon from "../../assets/Edit.png";
 import deleteIcon from "../../assets/delete.png";
@@ -6,6 +6,7 @@ import addIcon from "../../assets/add.png";
 import DashboredItems from "../../Components/DashboredItems/DashboredItems";
 import Success from "../../Components/Success/Success";
 import useTopics from "../../hooks/useTopics";
+import ConfirmDialog from "../../Components/ConfirmDialog/ConfirmDialog";
 
 const Topics = () => {
   const {
@@ -23,6 +24,20 @@ const Topics = () => {
     confirmAdd,
     setOpenSnackbar,
   } = useTopics();
+
+  const [confirmationModal, setConfirmationModal] = useState({
+    open: false,
+    message: "",
+    action: null,
+  });
+
+  const handleDelete = (id) => {
+    setConfirmationModal({
+      open: true,
+      message: "Are you sure you want to delete this topic?",
+      action: () => deleteRow(id),
+    });
+  };
 
   return (
     <main>
@@ -47,26 +62,26 @@ const Topics = () => {
         <div className="topics-info">
           <div className="topics-row">
             {topicsRows.length > 0 ? (
-              topicsRows.slice(0, numRows).map((item) => (
-                <div className="topics-row-one" key={item.id}>
-                  <div className="topic-number">{item.id}</div>
+              topicsRows.slice(0, numRows).map(({ id, name }) => (
+                <div className="topics-row-one" key={id}>
+                  <div className="topic-number">{id}</div>
                   <input
                     type="text"
-                    value={item.name}
+                    value={name}
                     className="topic-name"
-                    onChange={(e) => updateRow(item.id, e.target.value)}
+                    onChange={(e) => updateRow(id, e.target.value)}
                   />
                   <div className="topic-actions">
                     <img
                       src={editIcon}
                       alt="edit"
-                      onClick={() => renameTopic(item.id, item.name)}
+                      onClick={() => renameTopic(id, name)}
                       style={{ cursor: "pointer" }}
                     />
                     <img
                       src={deleteIcon}
                       alt="delete"
-                      onClick={() => deleteRow(item.id)}
+                      onClick={() => handleDelete(id)}
                       style={{ cursor: "pointer" }}
                     />
                   </div>
@@ -93,6 +108,18 @@ const Topics = () => {
           color={severity}
           open={openSnackbar}
           setOpen={setOpenSnackbar}
+        />
+
+        <ConfirmDialog
+          open={confirmationModal.open}
+          message={confirmationModal.message}
+          onConfirm={() => {
+            if (confirmationModal.action) confirmationModal.action();
+            setConfirmationModal({ open: false, action: null, message: "" });
+          }}
+          onCancel={() =>
+            setConfirmationModal({ open: false, action: null, message: "" })
+          }
         />
       </div>
     </main>
